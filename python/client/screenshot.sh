@@ -3,7 +3,7 @@ install_path=$1
 
 echo $install_path
 
-firefox --headless --screenshot --window-size=600,448 file://$install_path/python/client/spotipi.html
+firefox --headless --screenshot --window-size=640,400 file://$install_path/python/client/spotipi.html
 
 sudo mv /screenshot.png $install_path/python/client/screenshot.png
 
